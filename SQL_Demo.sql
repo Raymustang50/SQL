@@ -136,6 +136,11 @@ SELECT *
 FROM products
 WHERE Name LIKE "%y";
 
+/* Return all the employees with a firstname that has 2 characters */
+SELECT * 
+FROM employees
+WHERE FirstName LIKE '__';
+
 -- For more information on WILDCARDS go to: https://www.w3schools.com/sql/sql_wildcards.asp
 
 -- --------------------------------------------------------------------------------------------------------------
